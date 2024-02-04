@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 523.92 339.84">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        stroke: #ec008c;
+        stroke-width: 6px;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-4 {
+        fill: #ec008c;
+      }
+
+      .cls-5 {
+        fill: #ed1c24;
+      }
+
+      .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-4, .cls-10 {
+        stroke-width: 0px;
+      }
+
+      .cls-6 {
+        fill: #00aeef;
+      }
+
+      .cls-7 {
+        fill: #f15a29;
+      }
+
+      .cls-8 {
+        fill: #8dc63f;
+      }
+
+      .cls-9 {
+        fill: #92278f;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-10 {
+        fill: #fbb040;
+      }
+
+      .cls-3 {
+        fill: #fff;
+        stroke: #fff;
+      }
+
+      #arrow {
+        opacity: 0;
+        transform: translateX(-5px);
+        transition: opacity 0.5s ease, transform 0.5s ease;
+      }
+
+      #Layer_2:hover #arrow {
+        opacity: 1;
+        transform: translateX(0);
+      }
+
+
+    </style>
+    <script>
+      // select the path element directly
+      let thePath = document.querySelector('#Layer_2');
+
+      // functions always go in the middle
+      function logMyId() {        
+        console.log("rainbow");
+      }
+
+      // event handling at the bottom
+      document.addEventListener('click', logMyId);
+    </script>
+
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="rainbow">
+      <path class="cls-5" d="m261.96,253.46l-261.96-.05C.03,114.38,118.27,0,261.96,0s261.96,114.42,261.96,253.46h-261.96Z"/>
+      <path class="cls-7" d="m261.96,253.46l-232.79-.05c.03-123.54,105.1-225.19,232.79-225.19s232.79,101.68,232.79,225.24h-232.79Z"/>
+      <path class="cls-10" d="m263.4,253.46l-208.15-.04c.02-110.47,93.98-201.36,208.15-201.36s208.15,90.92,208.15,201.4h-208.15Z"/>
+      <path class="cls-8" d="m263.4,253.46l-181.87-.04c.02-96.52,82.11-175.93,181.87-175.93s181.87,79.43,181.87,175.97h-181.87Z"/>
+      <path class="cls-6" d="m263.4,253.46l-148.85-.03c.02-79,67.21-144,148.85-144s148.85,65.02,148.85,144.03h-148.85Z"/>
+      <path class="cls-9" d="m261.96,253.46l-115.23-.02c.01-61.16,52.03-111.47,115.23-111.47s115.23,50.33,115.23,111.49h-115.23Z"/>
+      <path class="cls-3" d="m263.4,253.46l-86.42-.02c0-45.87,39.02-83.6,86.42-83.6s86.42,37.75,86.42,83.62h-86.42Z"/>
+    </g>
+    <g id="arrow">
+      <line class="cls-2" y1="317.02" x2="484.23" y2="317.02"/>
+      <path class="cls-1" d="m510.76,316.47l-16.71-16h0s-.03-.03-.04-.04c-4.64-4.44-12-4.28-16.44.36-4.44,4.64-4.28,12,.36,16.44.13.13.27.25.41.37-.03.03-.07.06-.1.09-4.33,4.52-4.17,11.69.35,16.01,4.52,4.33,11.69,4.17,16.01-.35.06-.06.1-.12.16-.18h0s16-16.7,16-16.7Z"/>
+      <g>
+        <polygon class="cls-4" points="58.88 314.1 22.78 314.1 12.84 305.01 42.04 305.01 58.88 314.1"/>
+        <polygon class="cls-2" points="58.88 314.1 22.78 314.1 12.84 305.01 42.04 305.01 58.88 314.1"/>
+      </g>
+      <g>
+        <polygon class="cls-4" points="47.06 328.56 13.75 328.56 23.23 319.94 58.43 319.94 47.06 328.56"/>
+        <polygon class="cls-2" points="47.06 328.56 13.75 328.56 23.23 319.94 58.43 319.94 47.06 328.56"/>
+      </g>
+    </g>
+  </g>
+</svg>

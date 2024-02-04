@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 459.05 459.05">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 10px;
+      }
+
+      .cls-2:hover {
+        fill: blue;
+      }
+
+    </style>
+
+    <script>
+      // select the path element directly
+      let thePath = document.querySelector('#Layer_2');
+
+      // functions always go in the middle
+      function logMyId() {        
+        console.log("glass of wine"); 
+      }
+
+      // event handling at the bottom
+      document.addEventListener('click', logMyId);
+    </script>
+
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <circle class="cls-2" cx="229.52" cy="229.52" r="229.52"/>
+    <ellipse class="cls-1" cx="229.52" cy="355.57" rx="99.64" ry="13.94"/>
+    <line class="cls-3" x1="229.52" y1="349.2" x2="229.52" y2="205.86"/>
+    <path class="cls-1" d="m229.52,114.29h97.55c0,53.51-44.04,97.55-97.55,97.55s-97.55-44.04-97.55-97.55c0-.1,0-.21,0-.31l97.55.31Z"/>
+  </g>
+</svg>
