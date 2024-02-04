@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 301.97 312.14">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #00a651;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+        stroke-miterlimit: 10;
+        stroke-width: 6px;
+        stroke-dasharray:510;
+        stroke-dashoffset:0;
+      }
+
+      svg:hover .cls-1{
+        animation: animate-square 3s linear forwards;
+      }
+
+      svg:hover .cls-2 {
+        animation: animate-square 3s linear forwards;
+      }
+
+        svg:hover .cls-3 {
+        animation: animate-square 3s linear forwards;
+      }
+
+      @keyframes animate-square {
+        0% {
+          stroke-dashoffset: 0;
+        }
+        40% {
+          stroke-dashoffset:510;
+        }
+        80% {
+          stroke-dashoffset: 1020;
+        }
+        100% {
+          stroke-dashoffset: 1020;
+        }
+      }
+
+      .cls-2 {
+        stroke: #262262;
+      }
+
+      .cls-3 {
+        stroke: #ef4136;
+      }
+    </style>
+
+    <script>
+      // select the path element directly
+      let thePath = document.querySelector('#Layer_2');
+
+      // functions always go in the middle
+      function logMyId() {        
+        console.log(" 3 squares");
+      }
+
+      // event handling at the bottom
+      document.addEventListener('click', logMyId);
+    </script>
+
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <rect class="cls-1" x="28.97" y="27.17" width="126.08" height="126.08" transform="translate(-32.78 58.09) rotate(-30)"/>
+    <rect class="cls-2" x="28.97" y="157.08" width="126.08" height="126.08" transform="translate(143.38 -12.86) rotate(35.12)"/>
+    <rect class="cls-3" x="161.69" y="157.08" width="126.08" height="126.08" transform="translate(50.6 482.11) rotate(-100.8)"/>
+  </g>
+</svg>
